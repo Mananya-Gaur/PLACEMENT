@@ -1,0 +1,83 @@
+/* activities */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.container {
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: rgb(239, 240, 240);
+    width: 270px;
+    border: 2px;
+    margin: 10px;
+    border-radius: 15px ;
+}
+
+.card-image {
+    
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url(https://source.unsplash.com/400x400/?nature);
+}
+.car-2 {
+    background-image: url(https://source.unsplash.com/400x400/?people);
+}
+.car-3 {
+    background-image: url(https://source.unsplash.com/400x400/?animal);
+}
+
+.car-4 {
+    background-image: url(https://source.unsplash.com/400x400/?pet);
+}
+
+.car-5 {
+    background-image: url(https://source.unsplash.com/400x400/?car);
+}
+
+.car-6 {
+    background-image: url(https://source.unsplash.com/400x400/?bike);
+}
+.car-7 {
+    background-image: url(https://source.unsplash.com/400x400/?technology);
+}
+
+
+.card h2 {
+    padding: 10px;
+}
+.card p {
+    padding: 10px;
+
+}
+.card a {
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px 20 px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: rgb(243, 236, 250);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all Is ease;
+}
